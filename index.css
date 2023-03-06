@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+body{
+    padding:20px;
+    width:1440px;
+    font-family: 'Epilogue', sans-serif;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content {
+    margin-top:20px;
+    display: none;
+    position: absolute;
+    left:-60px;
+    width: 130px;
+    z-index: 1;
+    box-shadow: 10px hsl(0, 0%, 41%);
+    border-radius:5px;
+    padding: 20px 5px;
+    background-color: hsl(0, 0%, 98%);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 10px 0px 0px 18px;
+    text-decoration: none;
+    line-height: 28px;
+}
+.logo{
+    padding-right:4px;
+}
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+a:hover,
+button:hover{
+    cursor: pointer;
+    color:hsl(0, 0%, 8%);
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+button{
+    padding:15px 28px;
+    border-radius:13px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.login{
+    border:none;
+    background-color: inherit;
+    color:hsl(0, 0%, 41%);
+}
+.buttons{
+    display:inline;
+}
+.learn-more{
+    background-color:hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 98%);
+}
+.learn-more:hover{
+    background-color:hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 8%);
+}
+.reg{
+    background-color: inherit;
+    border:2px solid hsl(0, 0%, 41%);
+    padding:13px 23px;
+    color:hsl(0, 0%, 41%);
+}
+.reg:hover{
+    border:2px solid hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 8%);
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+    align-items: center;
+    gap:40px;
+}
+.main{
+    margin-top:70px;
+    display:flex;
+}
+img{
+    width:600px;
+    height:800px;
+    margin-right:60px;
+}
+.intro{
+    margin-right:280px;
+    margin-left:110px;
+}
+p{
+    font-size:1.125em;
+    color: hsl(0, 0%, 41%);
+    width:130%;
+    line-height: 28px;
+}
+h1{
+    margin-top:150px;
+    font-size:5.3em;
+    width:180%;
+}
+.clients{
+    margin-top:160px;
+    display: flex;
+    justify-content: space-between;
+    gap:-20px;
+}
+#arrow-down{
+    padding-left:13px;
+}
+
